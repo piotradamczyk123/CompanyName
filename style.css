@@ -1,0 +1,54 @@
+html, *{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+ font-size: 24px;
+ text-align: center;
+ 
+}
+
+p{
+    margin-top:36px;
+}
+
+.text{
+    
+    margin-top: -36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    
+    
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.one{
+    order: 2;
+}
+
+.two{
+    order: 1;
+}
+
+.three{
+    order: 3;
+}
+
+.four{
+    order: 4;
+}
